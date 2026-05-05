@@ -1,0 +1,6 @@
+fileVersion: 1
+id: d77a9f4b-98c4-4c0a-83d2-ff6c0785e2ee
+name: INVENTORY_STATS_MASTER
+steps:
+  - 9b06faaa-8225-4db0-b8d2-94cb52c15c02
+type: Subgraph

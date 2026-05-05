@@ -1,0 +1,7 @@
+fileVersion: 1
+id: 55d62bcb-e5c2-4a44-86e0-60e0ee982183
+name: PRICING_BACKUP
+steps:
+  - 401fa9d7-786e-4f8b-b178-2bb8db64a008
+  - 5f102d4a-1218-4c20-ba34-fd4e37b7daf2
+type: Subgraph

@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "1"
+includeSelector: "+{ subgraph: \"PRICING_BACKUP\" } OR { subgraph: \"INVENTORY_STATS_MASTER\" }"
+name: TEST_SUBGRAPH_JOB
+type: Job
