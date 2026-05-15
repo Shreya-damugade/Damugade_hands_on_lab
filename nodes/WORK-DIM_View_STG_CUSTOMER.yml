@@ -3,9 +3,17 @@ id: c9b44ef6-dcfe-49ea-8d4c-cb50cf3eec89
 name: DIM_View_STG_CUSTOMER
 operation:
   config:
+    deleteStrategy: NO DELETE
+    insertZeroKey: true
+    insertZeroKeyBol: "TRUE"
+    insertZeroKeyDate: 01-01-1900
+    insertZeroKeyStr: UNKNOWN
+    insertZeroKeySurrogateKey: "0"
+    insertZeroKeyTimestamp: "1900-01-01 00:00:00.000"
     postSQL: ""
     preSQL: ""
     testsEnabled: true
+    updateStrategy: MERGE
   database: ""
   deployEnabled: true
   description: Customer data as defined by TPC-H
@@ -265,7 +273,7 @@ operation:
   name: DIM_View_STG_CUSTOMER
   overrideSQL: false
   schema: ""
-  sqlType: Dimension
+  sqlType: latest-package:::388
   type: sql
   version: 1
 type: Node
