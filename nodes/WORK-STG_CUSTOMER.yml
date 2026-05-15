@@ -44,7 +44,7 @@ operation:
           - columnReferences:
               - columnCounter: a6db9e78-9788-4b16-955c-bb3dffe52514
                 stepCounter: 9b06faaa-8225-4db0-b8d2-94cb52c15c02
-            transform: "\"CUSTOMER\".\"C_NAME\" || '_NEW'"
+            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 667c6d09-b17e-4f74-a644-fc3b0a50bb38
@@ -146,7 +146,7 @@ operation:
         name: STG_CUSTOMER
         noLinkRefs: []
   name: STG_CUSTOMER
-  overrideSQL: false
+  overrideSQL: true
   schema: ""
   sqlType: "2"
   type: sql
