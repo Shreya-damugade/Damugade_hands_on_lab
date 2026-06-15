@@ -175,7 +175,9 @@ operation:
           stepCounter: 198ec1e1-46ae-4b1e-a4e1-47160e545425
         config: {}
         dataType: NUMBER
+
         description: ""
+
         name: SYSTEM_VERSION
         nullable: true
         sourceColumnReferences:
@@ -189,6 +191,7 @@ operation:
           stepCounter: 198ec1e1-46ae-4b1e-a4e1-47160e545425
         config: {}
         dataType: VARCHAR
+
         description: ""
         isBusinessKey: true
         name: SYSTEM_CURRENT_FLAG
@@ -204,6 +207,7 @@ operation:
           stepCounter: 198ec1e1-46ae-4b1e-a4e1-47160e545425
         config: {}
         dataType: TIMESTAMP
+
         description: ""
         isBusinessKey: true
         name: SYSTEM_START_DATE
@@ -219,6 +223,7 @@ operation:
           stepCounter: 198ec1e1-46ae-4b1e-a4e1-47160e545425
         config: {}
         dataType: TIMESTAMP
+
         description: ""
         isBusinessKey: true
         name: SYSTEM_END_DATE
@@ -234,6 +239,7 @@ operation:
           stepCounter: 198ec1e1-46ae-4b1e-a4e1-47160e545425
         config: {}
         dataType: TIMESTAMP
+
         description: ""
         isBusinessKey: true
         name: SYSTEM_CREATE_DATE
@@ -249,6 +255,7 @@ operation:
           stepCounter: 198ec1e1-46ae-4b1e-a4e1-47160e545425
         config: {}
         dataType: TIMESTAMP
+
         description: ""
         isBusinessKey: true
         name: SYSTEM_UPDATE_DATE
