@@ -145,9 +145,25 @@ operation:
               - columnCounter: 2f7c0c60-40d4-4387-b204-241ef693ad3e
                 stepCounter: 82764163-bbf6-4cf1-b08e-6eaf17ff98c2
             transform: ""
+      - appliedColumnTests:
+          isDistinct: false
+        columnReference:
+          columnCounter: 01a05a02-eae1-754a-ba6a-22dd9d5f703c
+          stepCounter: 7edc1019-e956-49ac-8357-174403d56748
+        config: {}
+        dataType: TIMESTAMP
+        description: Timestamp when the row was loaded into the stage.
+        name: LOAD_TIMESTAMP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CURRENT_TIMESTAMP()
     cteString: ""
+    description: ""
+    destinationName: ""
     enabledColumnTestIDs:
       - isDistinct
+    materializationOption: ""
     sourceMapping:
       - aliases:
           CUSTOMER: 82764163-bbf6-4cf1-b08e-6eaf17ff98c2
