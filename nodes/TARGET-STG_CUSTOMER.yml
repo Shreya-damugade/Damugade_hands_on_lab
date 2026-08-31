@@ -124,7 +124,7 @@ operation:
         dataType: VARCHAR(10)
         description: ""
         name: C_MKTSEGMENT
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: eb68a1da-54c5-413c-b9d6-86eb5c56cb9d
@@ -139,7 +139,7 @@ operation:
         dataType: VARCHAR(117)
         description: ""
         name: C_COMMENT
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 2f7c0c60-40d4-4387-b204-241ef693ad3e
